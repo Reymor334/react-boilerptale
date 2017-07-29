@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --hot --history-api-fallback --open"
+    "dev": "webpack-dev-server --hot --history-api-fallback --config ./configs/webpack.dev.config.js"
   },
   "repository": {
     "type": "git",
@@ -18,12 +18,16 @@
   },
   "homepage": "https://gitlab.com/Reymor334/react-boilerplace#readme",
   "dependencies": {
+    "css-loader": "^0.28.4",
+    "node-sass": "^4.5.3",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-redux": "^5.0.5",
     "react-router-dom": "^4.1.2",
     "react-router-redux": "^4.0.8",
-    "redux": "^3.7.2"
+    "redux": "^3.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2"
   },
   "devDependencies": {
     "babel-core": "^6.23.1",
