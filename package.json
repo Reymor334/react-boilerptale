@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "server": "webpack-dev-server --hot --history-api-fallback --config ./configs/webpack.dev.config.js",
-    "build": "webpack --config ./configs/webpack.prod.config.js"
+    "build": "webpack --config ./configs/webpack.prod.config.js",
+    "lint": "eslint ./src"
   },
   "repository": {
     "type": "git",
@@ -20,8 +21,9 @@
   "homepage": "https://gitlab.com/Reymor334/react-boilerplace#readme",
   "dependencies": {
     "connected-react-router": "^4.2.3",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-lite": "^0.15.37",
     "react-redux": "^5.0.5",
     "react-router-dom": "^4.1.2",
     "react-router-redux": "^4.0.8",
@@ -33,13 +35,16 @@
     "babel-polyfill": "^6.23.0",
     "babel-preset-latest": "^6.22.0",
     "babel-preset-react": "^6.23.0",
+    "compression-webpack-plugin": "^1.0.0",
+    "css-loader": "^0.28.4",
+    "eslint": "^4.3.0",
+    "eslint-plugin-react": "^7.1.0",
+    "node-sass": "^4.5.3",
     "react-hot-loader": "^3.0.0-beta.6",
-    "webpack": "^2.2.1",
-    "webpack-bundle-analyzer": "^2.8.3",
-    "webpack-dev-server": "^2.4.1",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.18.2",
-    "css-loader": "^0.28.4",
-    "node-sass": "^4.5.3"
+    "webpack": "^2.2.1",
+    "webpack-bundle-analyzer": "^2.8.3",
+    "webpack-dev-server": "^2.4.1"
   }
 }

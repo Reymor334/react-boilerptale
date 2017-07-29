@@ -16,10 +16,12 @@ const store = createStore(
     )
 );
 
-if (module.hot) {
-    module.hot.accept('../reducers/index', () => {
-        store.replaceReducer(connectRouter(history)(rootRed))
-    })
+if (process.env.NODE_ENV === "development") {
+    if (module.hot) {
+        module.hot.accept('../reducers/index', () => {
+            store.replaceReducer(connectRouter(history)(rootRed))
+        })
+    }
 }
 
 export default store
