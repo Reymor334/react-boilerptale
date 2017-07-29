@@ -19,6 +19,7 @@
   },
   "homepage": "https://gitlab.com/Reymor334/react-boilerplace#readme",
   "dependencies": {
+    "connected-react-router": "^4.2.3",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-redux": "^5.0.5",

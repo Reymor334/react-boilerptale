@@ -1,7 +1,9 @@
 import React from 'react'
+import {connect} from 'react-redux'
 
-export default class Root extends React.Component {
+class Root extends React.Component {
   render() {
+      console.log(this.props.state);
     return (
       <div>
         Hello, React Hot Loader!
@@ -9,3 +11,5 @@ export default class Root extends React.Component {
     )
   }
 }
+
+export default connect(state => ({state: state}))(Root)
