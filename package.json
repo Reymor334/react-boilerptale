@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/Reymor334/react-boilerplace.git"
+    "url": "git+https://github.com/Reymor334/react-boilerptale"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/Reymor334/react-boilerplace/issues"
+    "url": "https://github.com/Reymor334/react-boilerptale/issues"
   },
-  "homepage": "https://gitlab.com/Reymor334/react-boilerplace#readme",
+  "homepage": "https://github.com/Reymor334/react-boilerptale.git#readme",
   "dependencies": {
     "connected-react-router": "^4.2.3",
     "react": "^15.6.1",
