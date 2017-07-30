@@ -1,0 +1,10 @@
+$blue: #990092;
+
+.app {
+  background-color: $blue;
+  width: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
