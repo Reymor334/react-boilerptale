@@ -6,7 +6,8 @@
   "scripts": {
     "server": "webpack-dev-server --hot --history-api-fallback --config ./configs/webpack.dev.config.js",
     "build": "webpack --config ./configs/webpack.prod.config.js",
-    "lint": "eslint ./src"
+    "lint": "eslint ./src",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -38,6 +39,7 @@
     "css-loader": "^0.28.4",
     "eslint": "^4.3.0",
     "eslint-plugin-react": "^7.1.0",
+    "jest": "^20.0.4",
     "node-sass": "^4.5.3",
     "react-hot-loader": "^3.0.0-beta.6",
     "sass-loader": "^6.0.6",
